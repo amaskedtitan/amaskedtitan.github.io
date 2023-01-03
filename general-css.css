@@ -1,0 +1,41 @@
+@font-face {
+    font-family: simplifica;
+    src: url(SIMPLIFICA-font-folder/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf);
+  }
+body {
+    font-family: simplifica;
+    margin:0;
+    
+ }
+h1 {
+    margin: 0;
+}
+@media  screen and (max-width :480px)  {
+  body {
+    object-fit: contain;
+  }
+  superman-container {
+    width: fit-content;
+  }
+}
+p {
+  margin: 0;
+}
+.social-media-links-unorderedlist {
+  display: flex;
+  position:fixed;
+}
+.all-links-list {
+  list-style: none;
+  width: 20px;
+  height: 20px;
+}
+.link-imager {
+  width:20px;
+  height: 20px;
+  max-width:100%;
+  color: inherit;
+}
+html {
+  scroll-behavior: smooth;
+}

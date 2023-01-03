@@ -1,0 +1,5 @@
+1.sec = background-color: #3b4252
+2.sec = background-color: #5e81ac
+3.sec = background-color: #d8dee9
+light-pallate-for-smal-text =  color: #eceff4
+medium-pallate-for-large-text =  color: #e5e9f0

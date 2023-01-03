@@ -1,0 +1,80 @@
+.upper {
+    background-color: #3b4252;
+    height: 100vh; 
+}
+
+.superman-container {
+    display: flex;
+    align-items:center;
+    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    margin: auto;
+    margin-right: 50px ;
+    margin-left: 50px;
+    flex-wrap: wrap;
+    flex-direction: row;
+ 
+}
+.container {
+    flex: auto;
+    width: 100%;
+    min-width: fit-content;
+    max-width: max-content;
+    margin-right:50px;
+    margin-left:50px;
+   
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+}
+.hi-msg {
+    font-size: 30px;
+    color: #eceff4;
+    font-weight: 300;
+}
+.name {
+    font-size: 70px;
+    color: #e5e9f0;
+    font-weight: 900;
+}
+.welcome-msg {
+    font-size:50px;
+    color: #eceff4;
+    font-weight: 600;
+}
+.know-more {
+    padding-top:15px;
+    padding-left:25px;
+    padding-bottom:15px;
+    padding-right:25px;
+    margin-right: 20px;
+    background-color: transparent;
+    border:solid;
+    border-color: #88c0d0;
+    border-radius: 5px;
+    border-width: 3px;
+    color:#eceff4;
+    font-family: simplifica;
+    font-size: 25px;
+    transition:background-color 0.15s , color 0.15s;
+    display: inline-block;
+}
+.know-more:hover {
+    cursor: pointer;
+    border-color: transparent;
+    background-color:#88c0d0 ;
+    color: #3b4252;
+}
+.small-description {
+    font-size:35px;
+    margin-top: 30px;
+    color: aliceblue;
+}
+

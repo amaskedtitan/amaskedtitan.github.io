@@ -1,0 +1,47 @@
+.middle {
+    background-image: linear-gradient(#81a1c1,#8fbcbb);
+    height: fit-content;
+    padding-top: 50px;
+    max-height: auto;
+    padding-bottom: 70px;
+}
+.about-me-heading {
+    font-size: 70px;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+}
+.lmao {
+    padding: 100px 0px;
+    margin:0px auto;
+    max-width:900px;
+    padding-bottom: 0px;
+}
+.about-me-heading::before {
+    content: "01.";
+}
+.about-me::after {
+    content: "";
+    display: inline-block;
+    height: 0.5em;
+    vertical-align: bottom;
+    width: 550px;
+    margin-right: -100%;
+    margin-left: 10px;
+    border-top: 1px solid black;
+}
+.description {
+    font-size: 40px;
+    line-height: 50px;
+    color: #d8dee9;
+}
+.links-list {
+    margin-top: 20px;
+
+
+}
+.fly-over {
+    font-size :40px ; 
+    color: #1d3a4d;
+}
