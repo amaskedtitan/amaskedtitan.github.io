@@ -1,4 +1,33 @@
 .footer {
     background-color: #d8dee9;
-    height: 50px;
+    height: 200px;
+}
+.contact-me {
+ padding-top: 30px;
+}
+.superman {
+    display: flex;
+    align-items : center;
+    justify-content: center;
+    border-bottom: solid;
+    border-bottom-color: black;
+    border-bottom-width: 2px;
+}
+.contact-me-heading {
+    font-size: 45px;
+    color: #3b4252;
+}
+.lal {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.github-img {
+    height: 65px;
+    transition: height 0.15s;
+}
+.github-img:hover{
+    height: 80px;
 }
